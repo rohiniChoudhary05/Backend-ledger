@@ -35,11 +35,22 @@ async function userRegisterController(req, res) {
         },
         token
     })
+
     
-    await emailService.sendRegistrationEmail(user.email , user.name)
+// console.log("1. Registration successful");
+
+// console.log("2. Sending registration email to:", user.email);
+
+// await emailService.sendRegistrationEmail(user.email, user.name);
+
+// console.log("3. Registration email function completed");
+
+    
+    // await emailService.sendRegistrationEmail(user.email , user.name)
   
   
 }
+
 
 
 /* 
